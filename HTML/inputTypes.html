@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html page with various input types</title>
+</head>
+<body>
+    <h2>Inputs Types </h2>
+   
+    <form action = "/birds">
+
+        <h3>CheckBox</h3>
+
+        <input type = "checkbox" name = "agree_to" id = "agree">
+        <label for = "agree"> I agree to everything mentioned above </label>
+
+        <h3>Radio Button</h3>
+
+        <label for ="bird">Birds</label>
+        <input type = "radio" name = "animal" id = "bird" value = "dog">
+
+        <label for ="dog">Dog</label>
+        <input type = "radio" name = "animal" id = "dog" value = "dog">
+
+        <label for ="fish">Fish</label>
+        <input type = "radio" name = "animal" id = "fish" value = "fish">
+
+        <h3>Drop down list </h3>
+
+        <label for ="meal">Select the cuisine </label>
+
+        <select name = "meal" id = "meal">
+            <option value = "---Please choose your option---" selected > ---Please choose your option--- </option>
+            <option value = "Indian"> Indian </option>
+            <option value = "Thai"> Thai </option>
+            <option value = "American"> American </option>
+        </select>
+
+        <h3> Range </h3>
+
+        <label for = "level"> Select your spice level </label>
+        <input type = "range" name = "level" id = "level" min = "1" max = "10" step = "1">
+
+        <h3> Number Inout </h3>
+
+        <label for = "cheeseSlices"> Number of Cheese slices to add </label>
+        <input type = "number" name = "cheeseSlices" id = "cheeseSlices" min = "1" max = "10" step = "1">
+
+        <h3> Text Area</h3>
+
+        <label for = "Address"> Address </label>
+        <textarea name = "address" id = "Address" rows=" = "10" cols = "200"></textarea><br>
+       
+        <button>Submit</button>
+    </form> 
+    
+    
+</body>
+</html>

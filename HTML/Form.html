@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My First Form</title>
+</head>
+<body>
+    <h1>Forms Page</h1>
+    <form action = "/tacos">
+        <p>
+            <label for= "userName"> Enter your Username : </label>
+            <input type = "text" placeholder = "Enter your username" id = "userName" name ="username" minlength="5" maxlength="20"><br>
+            <!-- type is to give the type of intput
+            placeholder is for watermark in the field to understand what needs to be enetered
+            name is to get the value and submit it will be dsplayed in url ex : username= XXXX
+            id is to link the widget to any label or styling..etc-->
+        </p>
+        <p>
+            <label for = "password"> Enter your password </label>
+            <input type = "password" placeholder = "Enter your password" id = "password" name = "password" required><br>
+        </p>
+        <p>
+            <label for = "color"> Enter Color </label>
+            <input type = "color" id = "color"><br>
+        </p>
+        <p>
+            <label for = "date"> Enter your password </label>
+            <input type = "date" id = "date"><br>
+        </p>
+        <p>
+            <button>Submit</button>
+            <button>Cancel</button>
+        </p>
+    </form>
+    <form action ="https://www.reddit.com/search">
+        <p>
+            <input type = "text" name = "q">
+            <button> Click me.. </button> 
+        </p>
+    </form>
+    <form action ="https://www.google.com/search">
+        <p>
+            <input type = "text" name = "q">
+            <button> Click me.. </button> 
+        </p>
+    </form>
+</body>
+</html>

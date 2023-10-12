@@ -1,0 +1,55 @@
+* {
+    color : black;
+}
+
+h1, h2 {
+    background-color: magenta;
+}
+
+button {
+    font-size: 20px;
+ 
+}
+
+#submit {
+    background-color: aquamarine;
+    font-size: 10px;
+}
+
+.tag {
+    background-color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0vmin;
+}
+
+li a {
+    color: red;
+
+}
+
+h2 + p {
+    color: maroon;
+    background-color: salmon;
+}
+
+form > h5 {
+    color: green;
+    background-color: blueviolet;
+}
+
+input[type = "text"]{
+    color: rgb(70, 237, 206);
+    
+}
+
+a[href*=".com"]{
+    color: rgb(205, 212, 3);
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+p::first-line {
+    font-weight: bold;
+}
